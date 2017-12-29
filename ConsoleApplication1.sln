@@ -4,10 +4,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.vcxproj", "{DBF83AB4-1E44-4BD2-BC6A-279FB2E221EC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{ECE72653-E3CF-48F1-8A2B-A96D18E57230} = {ECE72653-E3CF-48F1-8A2B-A96D18E57230}
+		{763CAB55-9DEB-4202-B48D-72674405FA34} = {763CAB55-9DEB-4202-B48D-72674405FA34}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{763CAB55-9DEB-4202-B48D-72674405FA34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{ECE72653-E3CF-48F1-8A2B-A96D18E57230}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{ECE72653-E3CF-48F1-8A2B-A96D18E57230}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
