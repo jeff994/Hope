@@ -1,0 +1,9 @@
+
+*.pdb
+*.dll
+*.opendb
+*.pdb
+*.dll
+*.db-shm
+*.db-wal
+*.cache
