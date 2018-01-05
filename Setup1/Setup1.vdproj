@@ -19,12 +19,6 @@
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
-        "Entry"
-        {
-        "MsmKey" = "8:_9DEA84F8CBB64ACAAC6B60D828C63B5F"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
     }
     "Configurations"
     {
@@ -118,6 +112,17 @@
             "Property" = "8:TARGETDIR"
                 "Folders"
                 {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_BFA51261E7DC442EBB15B303F9C07CDD"
+                    {
+                    "Name" = "8:test"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_D23F4AA06B2E40C1AAD5C833F9C18DAC"
+                        "Folders"
+                        {
+                        }
+                    }
                 }
             }
         }
@@ -658,7 +663,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_176742BCC21C4F3E8FA1B77AF718BD84"
             {
-            "SourcePath" = "8:..\\Release\\ConsoleApplication1.exe"
+            "SourcePath" = "8:..\\x64\\Release\\ConsoleApplication1.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_BF82A0573AB8471C8A041F8842826E32"
@@ -682,45 +687,6 @@
             "ShowKeyOutput" = "11:TRUE"
                 "ExcludeFilters"
                 {
-                }
-            }
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_9DEA84F8CBB64ACAAC6B60D828C63B5F"
-            {
-            "SourcePath" = "8:..\\ClassLibrary1\\obj\\Release\\netstandard2.0\\ClassLibrary1.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_BF82A0573AB8471C8A041F8842826E32"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            "ProjectOutputGroupRegister" = "3:1"
-            "OutputConfiguration" = "8:"
-            "OutputGroupCanonicalName" = "8:Built"
-            "OutputProjectGuid" = "8:{ECE72653-E3CF-48F1-8A2B-A96D18E57230}"
-            "ShowKeyOutput" = "11:TRUE"
-                "ExcludeFilters"
-                {
-                }
-                "KeyOutputModule"
-                {
-                "UseDynamicProperties" = "11:TRUE"
-                "IsDependency" = "11:FALSE"
-                "SourcePath" = "8:..\\ClassLibrary1\\obj\\Release\\netstandard2.0\\ClassLibrary1.dll"
-                "LanguageId" = "3:0"
-                "Exclude" = "11:FALSE"
-                "Folder" = "8:_BF82A0573AB8471C8A041F8842826E32"
-                "Feature" = "8:"
-                "IsolateTo" = "8:"
                 }
             }
         }

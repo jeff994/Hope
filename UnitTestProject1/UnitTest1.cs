@@ -12,7 +12,7 @@ namespace UnitTestProject1
         {
             Class1 cls = new Class1(); 
 
-            Assert.AreEqual(cls.getNum(), 8);
+            Assert.AreEqual(cls.getNum(), 10);
         }
     }
 }
